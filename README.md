@@ -1,2 +1,3 @@
 # mediap_kayttajak_TX00CS26-3003-
-Course repository
+Excercise link:
+http://users.metropolia.fi/~lottalau/build/
