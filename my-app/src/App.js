@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import CatCard from './components/CatCard';
+import Table from './components/Table.js';
 
 class App extends Component {
   state = {
     picArray: [
       {
+        'id':'1',
         'title': 'Title 1',
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales enim eget leo condimentum vulputate. Sed lacinia consectetur fermentum. Vestibulum lobortis purus id nisi mattis posuere. Praesent sagittis justo quis nibh ullamcorper, eget elementum lorem consectetur. Pellentesque eu consequat justo, eu sodales eros.',
         'thumbnails': {
@@ -14,7 +15,7 @@ class App extends Component {
         'filename': 'http://placekitten.com/2048/1920',
       },
       {
-
+        'id':'2',
         'title': 'Title 2',
         'description': 'Donec dignissim tincidunt nisl, non scelerisque massa pharetra ut. Sed vel velit ante. Aenean quis viverra magna. Praesent eget cursus urna. Ut rhoncus interdum dolor non tincidunt. Sed vehicula consequat facilisis. Pellentesque pulvinar sem nisl, ac vestibulum erat rhoncus id. Vestibulum tincidunt sapien eu ipsum tincidunt pulvinar. ',
         'thumbnails': {
@@ -23,6 +24,7 @@ class App extends Component {
         'filename': 'http://placekitten.com/2041/1922',
       },
       {
+        'id':'3',
         'title': 'Title 3',
         'description': 'Phasellus imperdiet nunc tincidunt molestie vestibulum. Donec dictum suscipit nibh. Sed vel velit ante. Aenean quis viverra magna. Praesent eget cursus urna. Ut rhoncus interdum dolor non tincidunt. Sed vehicula consequat facilisis. Pellentesque pulvinar sem nisl, ac vestibulum erat rhoncus id. ',
         'thumbnails': {
@@ -35,11 +37,7 @@ class App extends Component {
   render() {
     //console.log(this.state.picArray);
     return (
-        <table>
-          <tbody>
-            <CatCard catcards={this.state.picArray}/>
-          </tbody>
-        </table>
+            <Table catcards={this.state.picArray}/>
     );
   }
 }

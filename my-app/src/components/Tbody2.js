@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import '../App.css';
 import TR from './TR.js';
 
-class CatCard extends Component {
+class Tbody2 extends Component {
   render() {
     console.log(this.props.catcards);
     return this.props.catcards.map((card) => (
-       <TR card={card}/>
+        <TR key={card.id} card={card}/>
     ));
   }
 }
 
-export default CatCard;
+export default Tbody2;

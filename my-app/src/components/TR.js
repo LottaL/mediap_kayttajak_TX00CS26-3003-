@@ -12,7 +12,7 @@ export class TR extends Component {
             <p>{this.props.card.description}</p>
           </td>
           <td>
-            <a href="#">View</a>
+            <a href={this.props.card.filename} target="_blank">View</a>
           </td>
         </tr>
     )
