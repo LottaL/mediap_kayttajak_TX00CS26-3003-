@@ -4,7 +4,7 @@ import Tbody from './Tbody.js';
 
 class Table extends Component {
   render() {
-    console.log(this.props.catcards);
+    //console.log(this.props.catcards);
     return (
         <table>
         <Tbody catcards={this.props.catcards}/>
