@@ -1,18 +1,21 @@
 import React, {Component} from 'react'
+import '../App.css';
+import IMG from './IMG.js';
 
 export class TR extends Component {
   render() {
+    //console.log(this.props.card);
     return (
         <tr>
           <td>
-            <img src={this.props.card.thumbnails.w160} alt="Title"/>
+            <IMG key={this.props.card.file_id} card={this.props.card}/>
           </td>
           <td>
             <h3>{this.props.card.title}</h3>
             <p>{this.props.card.description}</p>
           </td>
           <td>
-            <a href={this.props.card.filename} target="_blank">View</a>
+            <p>{ this.props.card.time_added }</p>
           </td>
         </tr>
     )
