@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import TR from './TR.js';
-
+import PropTypes from 'prop-types';
 
 class Tbody extends Component {
   render() {
@@ -11,5 +11,9 @@ class Tbody extends Component {
     ))}</tbody>);
   }
 }
+
+Tbody.propTypes = {
+  media: PropTypes.array
+};
 
 export default Tbody;

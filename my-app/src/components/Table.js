@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import '../App.css';
 import Tbody from './Tbody.js';
 import axios from 'axios';
+import PropTypes from 'prop-types';
+
+
 class Table extends Component {
 
   render() {
@@ -13,5 +16,9 @@ class Table extends Component {
     )
   }
 }
+
+Table.propTypes = {
+  media: PropTypes.array
+};
 
 export default Table;

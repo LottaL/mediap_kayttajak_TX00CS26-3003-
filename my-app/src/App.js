@@ -3,6 +3,8 @@ import './App.css';
 import Table from './components/Table.js';
 import axios from 'axios';
 
+console.log('test');
+
 class App extends Component {
   state = {
     picArray: [],

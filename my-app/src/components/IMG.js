@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import PropTypes from 'prop-types';
 
 export class IMG extends Component {
 
@@ -11,5 +11,9 @@ export class IMG extends Component {
     )
   }
 }
+
+IMG.propTypes = {
+  card: PropTypes.object
+};
 
 export default IMG
