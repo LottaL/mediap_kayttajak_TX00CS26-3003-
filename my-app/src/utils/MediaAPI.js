@@ -23,4 +23,10 @@ function getAllMedia() {
   .catch(err => console.log(err))
 }
 
+const getSingleMedia = (id) => {
+  return axios.get(`http://media.mw.metropolia.fi/wbma/media/${id}`)
+      //.then(res => console.log(res))
+};
+
+export {getSingleMedia}
 export {getAllMedia}

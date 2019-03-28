@@ -2,7 +2,10 @@ import React, {Component} from 'react'
 import '../App.css';
 import IMG from './IMG.js';
 import PropTypes from 'prop-types';
-import Modal2 from './Modal2';
+//import Modal2 from './Modal2';
+//<Modal2 key={this.props.card.file_id} card={this.props.card}/>
+import { Link} from 'react-router-dom';
+
 
 export class TR extends Component {
   render() {
@@ -17,7 +20,12 @@ export class TR extends Component {
             <p>{this.props.card.description}</p>
           </td>
           <td>
-            <Modal2 key={this.props.card.file_id} card={this.props.card}/>
+            <Link to={{
+              pathname: "/single",
+              state: {
+                file: this.props.card.file_id
+              }
+            }}>View</Link>
           </td>
         </tr>
     )
