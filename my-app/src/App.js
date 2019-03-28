@@ -24,7 +24,7 @@ class App extends Component {
     return (
         <div id="container">
           <Nav/>
-          <Table media={this.state.picArray}/>
+          <Home media={this.state.picArray}/>
         </div>
     );
   }

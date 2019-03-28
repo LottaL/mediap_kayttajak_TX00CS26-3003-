@@ -7,7 +7,7 @@ class Tbody extends Component {
   render() {
     //console.log(this.props.media);
     return (<tbody>{this.props.media.map((card) => (
-        <TR key={card.file_id} card={card.data}/>
+        <TR key={card.data.file_id} card={card.data}/>
     ))}</tbody>);
   }
 }
