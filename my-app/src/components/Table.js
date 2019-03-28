@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Tbody from './Tbody.js';
-import axios from 'axios';
 import PropTypes from 'prop-types';
 
 

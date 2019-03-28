@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import '../App.css';
 import IMG from './IMG.js';
 import PropTypes from 'prop-types';
-import ModalImage from 'react-modal-image';
+import Modal2 from './Modal2';
 
 export class TR extends Component {
   render() {
@@ -17,11 +17,7 @@ export class TR extends Component {
             <p>{this.props.card.description}</p>
           </td>
           <td>
-            <ModalImage
-                small={'http://media.mw.metropolia.fi/wbma/uploads/' + this.props.card.thumbnails.w160}
-                large={'http://media.mw.metropolia.fi/wbma/uploads/' + this.props.card.filename}
-                alt="View"
-            />
+            <Modal2 key={this.props.card.file_id} card={this.props.card}/>
           </td>
         </tr>
     )
