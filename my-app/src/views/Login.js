@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {login, register, checkIfUserExists} from '../utils/MediaAPI.js';
+import {login, register, getUser} from '../util/MediaAPI';
 
 class Login extends Component {
   state = {
@@ -8,8 +8,28 @@ class Login extends Component {
     password: '',
     email: '',
     full_name: '',
-    user_id: '',
-    token: ''
+  };
+
+  handleLoginSubmit = (evt) => {
+    evt.preventDefault();
+    this.doLogin();
+  };
+
+  handleRegisterSubmit = (evt) => {
+    evt.preventDefault();
+    register(this.state).then(user => {
+      console.log(user);
+      this.doLogin();
+    });
+  };
+
+  doLogin = () => {
+    login(this.state.username, this.state.password).then(response => {
+      console.log(response);
+      this.props.setUser(response.user);
+      localStorage.setItem('token', response.token);
+      this.props.history.push('/home');
+    });
   };
 
   handleInputChange = (evt) => {
@@ -17,97 +37,66 @@ class Login extends Component {
     const value = target.value;
     const name = target.name;
 
-    //console.log(value, name);
+    console.log(value, name);
 
     this.setState({
       [name]: value,
     });
   };
 
-  ifLogged = () => {
-    let token = localStorage.getItem("token"),
-    id = localStorage.getItem("id");
-    if (token != null) {
-      console.log(token);
-      console.log(id);
-      this.props.history.push("/home");
+  componentDidMount() {
+    console.log(localStorage.getItem('token'));
+    if (localStorage.getItem('token') !== null) {
+      getUser(localStorage.getItem('token')).then(response => {
+        this.props.setUser(response);
+        this.props.history.push('/home');
+      });
     }
-  };
-
-  submitLogin = (event) => {
-    console.log('submit');
-    event.preventDefault();
-    login(this.state.username, this.state.password)
-    .then(res => {
-      console.log(res);
-      this.setState({user_id: res.data.user.user_id, token: res.data.token});
-      const saveToken = (key, value) => localStorage.setItem(key, value);
-      localStorage.clear();
-      saveToken("token", res.data.token);
-      saveToken("id", JSON.stringify(res.data.user.user_id));
-      //console.log(res.data.user.user_id);
-      //let token = localStorage.getItem("token");
-      //console.log(token);
-      this.props.history.push("/home");
-    })
-    .catch(err => alert(err.response.statusText));
-  };
-
-  submitRegister = (event) => {
-    console.log('register');
-    event.preventDefault();
-    checkIfUserExists(this.state.username).then(res => {
-      console.log(res);
-      if (res.data.available) {
-        register(this.state)
-        .then(res => {
-          console.log(res);
-          alert('User registration succeeded: ' + this.state.username);
-        })
-        .catch(err => {
-          console.log(err.response.data);
-          alert('User regisstration failed! \n' + err.response.data.error);
-        });
-      } else {
-        alert('Username alredy taken!');
-      }
-    });
-  };
+  }
 
   render() {
-    //this.ifLogged();
     return (
-        <div>
-          <form id="login" onSubmit={this.submitLogin}>
-            <h3>Login</h3><br/>
-            Username:<br/>
-            <input type="text" name="username" value={this.state.username}
-                   onChange={this.handleInputChange}/><br/>
-            Password:<br/>
-            <input type="text" name="password" value={this.state.password}
-                   onChange={this.handleInputChange}/><br/>
-            <input type="submit" value="Submit"/>
+        <React.Fragment>
+          <h1>Login</h1>
+          <form onSubmit={this.handleLoginSubmit}>
+            <input type="text" name="username" placeholder="username"
+                   value={this.state.username}
+                   onChange={this.handleInputChange}/>
+            <br/>
+            <input type="password" name="password" placeholder="password"
+                   value={this.state.password}
+                   onChange={this.handleInputChange}/>
+            <br/>
+            <button type="submit">Login</button>
           </form>
-
-          <form id="register" onSubmit={this.submitRegister}>
-            <h3>Register</h3><br/>
-            Username:<br/>
-            <input type="text" name="username" value={this.state.username}
-                   onChange={this.handleInputChange}/><br/>
-            Password:<br/>
-            <input type="text" name="password" value={this.state.password}
-                   onChange={this.handleInputChange}/><br/>
-            E-mail:<br/>
-            <input type="text" name="email" value={this.state.email}
-                   onChange={this.handleInputChange}/><br/>
-            Full name:<br/>
-            <input type="text" name="full_name" value={this.state.full_name}
-                   onChange={this.handleInputChange}/><br/>
-            <input type="submit" value="Submit"/>
+          <h1>Register</h1>
+          <form onSubmit={this.handleRegisterSubmit}>
+            <input type="text" name="username" placeholder="username"
+                   value={this.state.username}
+                   onChange={this.handleInputChange}/>
+            <br/>
+            <input type="password" name="password" placeholder="password"
+                   value={this.state.password}
+                   onChange={this.handleInputChange}/>
+            <br/>
+            <input type="email" name="email" placeholder="email"
+                   value={this.state.email}
+                   onChange={this.handleInputChange}/>
+            <br/>
+            <input type="text" name="full_name" placeholder="full name"
+                   value={this.state.full_name}
+                   onChange={this.handleInputChange}/>
+            <br/>
+            <button type="submit">Login</button>
           </form>
-        </div>
-    )
+        </React.Fragment>
+    );
   }
 }
 
-export default Login
+Login.propTypes = {
+  setUser: PropTypes.func,
+  history: PropTypes.object,
+};
+
+export default Login;

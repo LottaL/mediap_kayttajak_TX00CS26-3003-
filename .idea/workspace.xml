@@ -2,45 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b256375-a971-42be-9030-9a95f553c803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/views/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/views/Logout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/index3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/precache-manifest.2450185aa3946a60a12706a6ec2f88d6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/static/css/main.7a0d4d1e.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/static/css/main.7a0d4d1e.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/static/js/2.34dc5396.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/static/js/2.34dc5396.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/static/js/main.6f905a38.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/static/js/main.6f905a38.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/static/js/runtime~main.d653cc00.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/static/js/runtime~main.d653cc00.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/index3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/precache-manifest.b89c15c6913bd3d3dcb1b8e6d1a36f5f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/static/css/main.7a0d4d1e.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/static/css/main.7a0d4d1e.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/static/js/2.cf707b35.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/static/js/2.cf707b35.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/static/js/main.b052957c.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/static/js/main.b052957c.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/static/js/runtime~main.d653cc00.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/static/js/runtime~main.d653cc00.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/buildHTTP2/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/precache-manifest.40da68480604ec0ec4b2b3f12057a3eb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/static/css/main.7a0d4d1e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/static/css/main.7a0d4d1e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/static/js/2.e316a694.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/static/js/2.e316a694.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/static/js/main.236a77fc.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/static/js/main.236a77fc.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/static/js/runtime~main.d653cc00.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/static/js/runtime~main.d653cc00.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/AJAX2/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/precache-manifest.2450185aa3946a60a12706a6ec2f88d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/static/css/main.7a0d4d1e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/static/css/main.7a0d4d1e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/static/js/2.34dc5396.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/static/js/2.34dc5396.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/static/js/main.6f905a38.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/static/js/main.6f905a38.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/static/js/runtime~main.d653cc00.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/static/js/runtime~main.d653cc00.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/precache-manifest.b89c15c6913bd3d3dcb1b8e6d1a36f5f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/static/css/main.7a0d4d1e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/static/css/main.7a0d4d1e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/static/js/2.cf707b35.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/static/js/2.cf707b35.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/static/js/main.b052957c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/static/js/main.b052957c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/static/js/runtime~main.d653cc00.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/static/js/runtime~main.d653cc00.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/allBuilds/buildHTTP2/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App_AJAX1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/IMG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Modal2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/utils/MediaAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/utils/MediaAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/TR.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Tbody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Tbody2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/utils/MediaAPI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/views/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/views/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/views/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/views/Logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/views/Logout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/views/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/views/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/views/Single.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/views/Single.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/public/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/components/Nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/components/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/components/Tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/util/MediaAPI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/views/Front.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/views/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/views/Logout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/views/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/src/views/Single.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app2/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,25 +118,25 @@
     <session id="2063019230">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="3" />
-          <entry key="html" value="3" />
-          <entry key="js" value="33" />
-          <entry key="json" value="4" />
+          <entry key="html" value="4" />
+          <entry key="js" value="34" />
+          <entry key="json" value="6" />
           <entry key="lock" value="1" />
           <entry key="md" value="2" />
           <entry key="txt" value="3" />
@@ -81,9 +144,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="33" />
+          <entry key="HTML" value="4" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="34" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="yarn.lock" value="1" />
         </counts>
@@ -91,36 +154,51 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="12" />
-          <entry key="html" value="27" />
-          <entry key="js" value="11745" />
-          <entry key="json" value="15" />
+          <entry key="html" value="33" />
+          <entry key="js" value="12014" />
+          <entry key="json" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="27" />
-          <entry key="JSON" value="15" />
-          <entry key="JavaScript" value="11745" />
+          <entry key="HTML" value="33" />
+          <entry key="JSON" value="16" />
+          <entry key="JavaScript" value="12014" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="11" />
+          <entry key="ESLintLanguageService" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -128,11 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/components/Nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -140,8 +215,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/views/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+            <state relative-caret-position="901">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/views/Single.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="89" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="89" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -150,36 +234,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/views/Logout.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/views/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/views/Single.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/views/Profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -187,20 +245,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/utils/MediaAPI.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/util/MediaAPI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="969">
+              <caret line="72" column="76" selection-start-line="72" selection-start-column="76" selection-end-line="72" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/TR.js">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Tr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state>
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -234,7 +292,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/my-app/.gitignore" />
         <option value="$PROJECT_DIR$/my-app/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/my-app/public/index.html" />
         <option value="$PROJECT_DIR$/my-app/src/index.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/Cat_card.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/Card.js" />
@@ -260,6 +317,9 @@
         <option value="$PROJECT_DIR$/my-app/src/components/Nav.js" />
         <option value="$PROJECT_DIR$/my-app/src/views/Login.js" />
         <option value="$PROJECT_DIR$/my-app/src/utils/MediaAPI.js" />
+        <option value="$PROJECT_DIR$/mpjakk-example-login/package.json" />
+        <option value="$PROJECT_DIR$/my-app/public/index.html" />
+        <option value="$PROJECT_DIR$/my-app/src/util/MediaAPI.js" />
         <option value="$PROJECT_DIR$/my-app/src/views/Profile.js" />
         <option value="$PROJECT_DIR$/my-app/src/App.js" />
       </list>
@@ -282,13 +342,12 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/mpjakk-example-login/package.json" />
       <path value="$PROJECT_DIR$/my-app/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="45" />
-    <option name="y" value="72" />
+    <option name="y" value="71" />
     <option name="width" value="1455" />
     <option name="height" value="890" />
   </component>
@@ -309,32 +368,26 @@
             <path>
               <item name="mediap_kayttajak_TX00CS26-3003-" type="b2602c69:ProjectViewProjectNode" />
               <item name="mediap_kayttajak_TX00CS26-3003-" type="462c0819:PsiDirectoryNode" />
-              <item name="mpjakk-example-login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediap_kayttajak_TX00CS26-3003-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediap_kayttajak_TX00CS26-3003-" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mediap_kayttajak_TX00CS26-3003-" type="b2602c69:ProjectViewProjectNode" />
               <item name="mediap_kayttajak_TX00CS26-3003-" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mediap_kayttajak_TX00CS26-3003-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mediap_kayttajak_TX00CS26-3003-" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mediap_kayttajak_TX00CS26-3003-" type="b2602c69:ProjectViewProjectNode" />
               <item name="mediap_kayttajak_TX00CS26-3003-" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mediap_kayttajak_TX00CS26-3003-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mediap_kayttajak_TX00CS26-3003-" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mediap_kayttajak_TX00CS26-3003-" type="b2602c69:ProjectViewProjectNode" />
@@ -405,18 +458,19 @@
       <workItem from="1553763181707" duration="8747000" />
       <workItem from="1553794271288" duration="11944000" />
       <workItem from="1554052981864" duration="18538000" />
-      <workItem from="1554198579210" duration="4745000" />
+      <workItem from="1554198579210" duration="5562000" />
+      <workItem from="1554278696621" duration="4873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95082000" />
+    <option name="totallyTimeSpent" value="100772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="58" width="1164" height="712" extended-state="0" />
+    <frame x="36" y="57" width="1164" height="712" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20289855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20652173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Project Explorer" order="3" weight="0.3292683" />
@@ -470,13 +524,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/Card.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/public/index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -506,13 +553,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/ModalLink.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/Modal2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -573,53 +613,6 @@
     <entry file="file://$PROJECT_DIR$/my-app/src/views/Logout.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/views/Single.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/TR.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/views/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/views/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TX00CS25-3003/DigitalSignage/digisign/sign_app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -627,10 +620,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/views/Profile.js">
+    <entry file="file://$PROJECT_DIR$/my-app/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/views/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -639,18 +639,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/utils/MediaAPI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="1037">
           <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Tr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/views/Single.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="89" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/views/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/views/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/util/MediaAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="72" column="76" selection-start-line="72" selection-start-column="76" selection-end-line="72" selection-end-column="76" />
         </state>
       </provider>
     </entry>

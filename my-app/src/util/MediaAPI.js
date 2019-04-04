@@ -57,6 +57,17 @@ const getUser = (token) => {
   return fetch(apiUrl + 'users/user', settings).then(response => {
     return response.json();
   });
-}
+};
 
-export {getAllMedia, getSingleMedia, login, register, getUser};
+const getProfileIMG = (token) => {
+  const settings = {
+    headers: {
+      'x-access-token': token,
+    }
+  };
+  return fetch(apiUrl + 'media/user', settings).then(response => {
+    return response.json();
+  })
+};
+
+export {getAllMedia, getSingleMedia, login, register, getUser, getProfileIMG};

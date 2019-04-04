@@ -1,62 +1,57 @@
-import React, { Component } from 'react';
-import './App.css';
-import Nav from './components/Nav.js'
-import {getAllMedia} from './utils/MediaAPI.js';
+import React, {Component} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import Home from './views/Home.js';
-import Profile from './views/Profile.js'
-import Single from './views/Single.js';
-import Login from './views/Login.js';
-import {getCurrUserInfo} from './utils/MediaAPI';
-import {getUserInfo} from './utils/MediaAPI';
-
-
-//getAllMedia().then(res => console.log(res));
+import {getAllMedia} from './util/MediaAPI';
+import Front from './views/Front';
+import Single from './views/Single';
+import Nav from './components/Nav';
+import Login from './views/Login';
+import Profile from './views/Profile';
+import Logout from './views/Logout';
 
 class App extends Component {
+
   state = {
     picArray: [],
+    user: null,
+  };
+
+  setUser = (user) => {
+    this.setState({user});
+  };
+
+  checkLogin = () => {
+    return this.state.user !== null;
   };
 
   componentDidMount() {
-    let userdata;
-    getAllMedia().then(res => {this.setState({ picArray: res });
-     // console.log(this.state.picArray);
+    getAllMedia().then((pics) => {
+      console.log(pics);
+      this.setState({picArray: pics});
     });
-    getCurrUserInfo(localStorage.getItem('token'))
-    .then(res => console.log(res))
-    .catch(err => {
-      console.log(err.response);
-      alert(err.response.statusText);
-    });
-    getUserInfo(localStorage.getItem('id'), localStorage.getItem('token')).then(
-        res => {
-          userdata = res.data;
-          console.log(userdata);
-        }
-    )
   }
 
   render() {
-    //console.log(this.state.picArray);
-    //router basename="/~lottalau/FOLDERNAME"
     return (
-        <Router basename="/~lottalau/AJAX2">
-          <div id="container">
-            <Nav/>
-            <Route exact path="/" component={Login}/>
-            <Route path="/home" render={props => (
-                <React.Fragment>
-                  <Home media={this.state.picArray}/>
-                </React.Fragment>
+        <Router basename='/~lottalau/buildMaterialUI'>
+          <div className='container'>
+            <Nav checkLogin={this.checkLogin}/>
+            <Route  path="/home" render={(props) => (
+                <Front {...props} picArray={this.state.picArray}/>
             )}/>
-            <Route path="/profile" render={props => (
-                <React.Fragment>
-                  <Profile user={}/>
-                </React.Fragment>
-                )}
-            />
-            <Route path="/single" component={Single}/>
+
+            <Route path="/single/:id" component={Single}/>
+
+            <Route path="/profile" render={(props) => (
+                <Profile {...props} user={this.state.user}/>
+            )}/>
+
+            <Route exact path="/" render={(props) => (
+                <Login {...props} setUser={this.setUser}/>
+            )}/>
+
+            <Route path="/logout" render={(props) => (
+                <Logout {...props} setUser={this.setUser}/>
+            )}/>
           </div>
         </Router>
     );

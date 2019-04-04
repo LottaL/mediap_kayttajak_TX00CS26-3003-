@@ -1,39 +1,38 @@
-import React, {Component} from 'react'
-import '../App.css';
-import IMG from './IMG.js';
+import React from 'react';
+import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
-//import Modal2 from './Modal2';
-//<Modal2 key={this.props.card.file_id} card={this.props.card}/>
-import { Link} from 'react-router-dom';
 
+const mediaUrl = 'http://media.mw.metropolia.fi/wbma/uploads/';
 
-export class TR extends Component {
-  render() {
-    //console.log(this.props.card);
-    return (
-        <tr>
-          <td>
-            <IMG key={this.props.card.file_id} card={this.props.card}/>
-          </td>
-          <td>
-            <h3>{this.props.card.title}</h3>
-            <p>{this.props.card.description}</p>
-          </td>
-          <td>
-            <Link to={{
-              pathname: "/single",
-              state: {
-                file: this.props.card.file_id
-              }
-            }}>View</Link>
-          </td>
-        </tr>
-    )
+const Img = (props) => {
+  console.log('props', props);
+  const {thumbnails, screenshot, title} = props.pic;
+  if (thumbnails !== null) {
+    return <img src={mediaUrl + thumbnails.w160} alt={title}/>;
+  } else {
+    return <img src={mediaUrl + screenshot} alt={title}/>;
   }
-}
-
-TR.propTypes = {
-  card: PropTypes.object
 };
 
-export default TR
+const Tr = (props) => {
+  const {title, description, file_id} = props.pic;
+  return (
+      <tr>
+        <td>
+          <Img pic={props.pic}/>
+        </td>
+        <td>
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </td>
+        <td>
+          <Link to={'single/' + file_id}>View</Link>
+        </td>
+      </tr>
+  );
+};
+
+Tr.propTypes = {
+  pic: PropTypes.object,
+};
+export default Tr;

@@ -1,38 +1,31 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {getSingleMedia} from '../utils/MediaAPI.js';
+import {getSingleMedia} from '../util/MediaAPI';
 
 class Single extends Component {
   mediaUrl = 'http://media.mw.metropolia.fi/wbma/uploads/';
   state = {
-    file: {
-      filename: '',
-      title: 'testi',
-    },
+    file: 'http://placekitten.com/200/200',
   };
 
   componentDidMount() {
-    getSingleMedia(this.props.location.state.file).then(res => {
-      //console.log(res);
-      this.setState({file:{ filename: res.data.filename, title: res.data.title}});
+    const {id} = this.props.match.params;
+    getSingleMedia(id).then(pic => {
+      console.log(pic);
+      this.setState({file: pic});
     });
   }
 
   render() {
-    //console.log(this.props.location.state.file);
     return (
-        <React.Fragment>
-          <h1>{this.state.file.title}</h1>
-          <img src={this.mediaUrl + this.state.file.filename}
-               alt={this.state.file.title}/>
-        </React.Fragment>
+        <img src={this.mediaUrl + this.state.file.filename} alt={this.state.file.title}/>
     );
   }
+
 }
 
 Single.propTypes = {
   match: PropTypes.object,
-  location: PropTypes.string,
 };
 
 export default Single;

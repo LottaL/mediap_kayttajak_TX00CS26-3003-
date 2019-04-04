@@ -1,23 +1,22 @@
 import React from 'react';
-import {getUserInfo} from '../utils/MediaAPI';
 import PropTypes from 'prop-types';
-import Home from './Home';
+import {getProfileIMG} from '../util/MediaAPI';
 
 const Profile = (props) => {
-  console.log(props);
-  let id = localStorage.getItem('id'),
-      token = localStorage.getItem('token');
-  //getUserInfo(id, token).then(res => console.log(res));
-
+  const {username, email, full_name} = props.user;
+  console.log(getProfileIMG(localStorage.getItem('token')));
   return (
       <React.Fragment>
         <h1>Profile</h1>
+        <p>Username: {username}</p>
+        <p>email: {email}</p>
+        <p>Full name: {full_name}</p>
       </React.Fragment>
   );
 };
 
 Profile.propTypes = {
-  user: PropTypes.string,
+  user: PropTypes.object,
 };
 
 export default Profile;

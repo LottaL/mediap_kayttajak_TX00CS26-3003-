@@ -1,23 +1,22 @@
-import React, { Component } from 'react';
-import '../App.css';
-import Tbody from './Tbody.js';
+import React from 'react';
 import PropTypes from 'prop-types';
+import Tr from './Tr';
 
-
-class Table extends Component {
-
-  render() {
-    //console.log(this.props.media);
-    return (
-        <table>
-        <Tbody media={this.props.media}/>
-        </table>
-    )
-  }
-}
+const Table = (props) => {
+  const rows = props.picArray.map((item, i) => {
+    return <Tr key={i} pic={item}/>;
+  });
+  return (
+      <table>
+        <tbody>
+        {rows}
+        </tbody>
+      </table>
+  );
+};
 
 Table.propTypes = {
-  media: PropTypes.array
+  picArray: PropTypes.array,
 };
 
 export default Table;
